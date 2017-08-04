@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ghplayer</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<!--整体布局  -->
+	<div id="jp_container_1" class="jp-video jp-video-360p">
+		<!--视频容器  -->
+		<div id="jquery_jplayer_1" class="jp-jplayer">
+			
+		</div>
+
+		<!--播放控件容器 -->
+		<div class="jp-gui">
+
+			<!-- 主控件区域 -->
+			<div class="jp-interface">
+
+				<div class="jp-controls-holder">
+					
+					<!-- 开始和暂停按钮 -->
+					<a href="javascript:;" class="jp-play" tabindex="1">play</a>
+					<a href="javascript:;" class="jp-pause" tabindex="1">pause</a>
+					<span class="separator sep-1"></span>
+
+					<!--进度条-->
+					<div class="jp-progress">
+						<div class="jp-seek-bar">
+							<div class="jp-play-bar">
+								<span></span>
+							</div>
+						</div>
+					</div>
+
+					<!-- 时间提示 -->
+					<div class="jp-current-time"></div>
+					<span class="time-sep">/</span>
+					<div class="jp-duration"></div>
+					<span class="separator sep-2"></span>
+
+					<!-- 静音切换 -->
+					<a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a>
+					<a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a>
+					
+					<!-- 声音条 -->
+					<div class="jp-volume-bar">
+						<div class="jp-volume-bar-value">
+							<span class="handle"></span>
+						</div>
+					</div>
+
+					<span class="separator sep-2"></span>
+
+					<!-- 全屏切换 -->
+					<a href="javascript:;" class="jp-full-screen" tabindex="1" title="full screen">full screen</a>
+
+				    <a href="javascript:;" class="jp-restore-screen" tabindex="1" title="restore screen">restore screen</a>
+
+
+
+
+				</div><!--end jp-controls-holder-->
+			</div> <!--end jp-interface-->
+		</div><!--end jp-gui-->
+
+
+	</div>
+</body>
+</html>
